@@ -25,17 +25,17 @@
 	# $Nav->setLinkList(array());
 	
 	# Break the navigation into sections
-	$Nav->addNavSeparator("MyProject", 	"/default");
-	$Nav->addCustomNav("Download", "/project/download.php", "_self", 3);
-	$Nav->addCustomNav("Documentation", "/project/documentation.php", "_blank", 3);
-	$Nav->addCustomNav("Support", "/project/support.php", "_blank", 3);
-	$Nav->addCustomNav("Getting Involved", "/project/developers", "_blank", 3);
+	$Nav->addNavSeparator("Virgo Home", 	"/gemini/web/");
+	$Nav->addCustomNav("Download", 			"/gemini/web/download", 		"_self", 3);
+	$Nav->addCustomNav("Documentation", 	"/gemini/web/documentation",	"_self", 3);
+	$Nav->addCustomNav("Support", 			"/gemini/web/support", 			"_self", 3);
+	$Nav->addCustomNav("Getting Involved", 	"/gemini/web/contribute",		"_self", 3);
+	$Nav->addCustomNav("About Virgo", 		"/gemini/web/about",    		"_self", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
-	$pageKeywords	= "xtext, dsl, modeling, domain specific language, textual";
-	$pageAuthor		= "Your name";
-	# $pageTitle 		= "Xtext";
-
+	# $pageKeywords	= "eclipse, OSGi, gemini";
+	# $pageAuthor		= "Christopher Frost";
+	# $pageTitle 		= "Gemini Web Container from EclipseRT";
 
 	# top navigation bar
 	# To override and replace the navigation with your own, uncomment the line below.
@@ -47,11 +47,11 @@
 	# $Menu->addMenuItem("Developers", "/project/developers", "_self");
 	
 	# To define additional CSS or other pre-body headers
-	# $App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="/default/style.css"/>');
+	$App->AddExtraHtmlHeader('<link media="screen" rel="stylesheet" type="text/css" href="/virgo/resources/local.css"/>');
 	
 	# To enable occasional Eclipse Foundation Promotion banners on your pages (EclipseCon, etc)
 	$App->Promotion = TRUE;
 	
 	# If you have Google Analytics code, use it here
-	# $App->SetGoogleAnalyticsTrackingCode("YOUR_CODE");
+	$App->SetGoogleAnalyticsTrackingCode("UA-15496793-1");
 ?>
