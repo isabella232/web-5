@@ -26,9 +26,11 @@
 	ob_start();
 ?>
 	<div id="midcolumn">
-		<div class="logo"><img src="/gemini/web/images/gemini-logo.png" alt="Gemini"/></div>
+		<div class="logo"><h1>Gemini Web Container</h1></div>
 		<p>
-			The Gemini Web Container is the reference implementation of RFC66 from the OSGi Aliance. 
+			The Gemini Web Container is the reference implementation of RFC66 from the OSGi Alliance. To learn more about the Web 
+			Container you can read this <a href="http://blog.springsource.com/2009/05/27/introduction-to-the-osgi-web-container/">
+			Blog post</a>. The donation will be complete soon and this website will be further updated.
 		</p>
 		
 	</div>
