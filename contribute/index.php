@@ -32,7 +32,7 @@
 			Download Gemini and take it for a spin. Read the docs. Check out and build the code. Then tweet, blog, or post to the 
 			<a href="https://dev.eclipse.org/mailman/listinfo/gemini-dev"> developer mailing list</a> It's as simple as that. 
 			Maybe later you'll want to file 
-			<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;classification=RT;product=Virgo">
+			<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;classification=RT;product=Gemini">
 			bugs</a> or send in patches to the docs and code.
 		</p>
 		

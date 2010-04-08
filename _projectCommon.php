@@ -25,12 +25,13 @@
 	# $Nav->setLinkList(array());
 	
 	# Break the navigation into sections
-	$Nav->addNavSeparator("Virgo Home", 	"/gemini/web/");
+	$Nav->addNavSeparator("Gemini Home", 	"/gemini/web/");
+	$Nav->addCustomNav("Gemini Web Home",	"/gemini/web/", 				"_self", 3);
 	$Nav->addCustomNav("Download", 			"/gemini/web/download", 		"_self", 3);
 	$Nav->addCustomNav("Documentation", 	"/gemini/web/documentation",	"_self", 3);
 	$Nav->addCustomNav("Support", 			"/gemini/web/support", 			"_self", 3);
 	$Nav->addCustomNav("Getting Involved", 	"/gemini/web/contribute",		"_self", 3);
-	$Nav->addCustomNav("About Virgo", 		"/gemini/web/about",    		"_self", 3);
+	$Nav->addCustomNav("About Gemini", 		"/gemini/web/about",    		"_self", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
 	# $pageKeywords	= "eclipse, OSGi, gemini";
@@ -47,7 +48,7 @@
 	# $Menu->addMenuItem("Developers", "/project/developers", "_self");
 	
 	# To define additional CSS or other pre-body headers
-	$App->AddExtraHtmlHeader('<link media="screen" rel="stylesheet" type="text/css" href="/virgo/resources/local.css"/>');
+	$App->AddExtraHtmlHeader('<link media="screen" rel="stylesheet" type="text/css" href="/gemini/web/resources/local.css"/>');
 	
 	# To enable occasional Eclipse Foundation Promotion banners on your pages (EclipseCon, etc)
 	$App->Promotion = TRUE;

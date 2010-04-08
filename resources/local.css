@@ -12,9 +12,9 @@
 .logo {
     margin-left: auto;
     margin-right: auto;
-    width: 326px;
     margin-bottom: 20px;
-    text-align: center;
+	text-align: center;
+	width: 215px;
 }
 
 .award {
@@ -27,6 +27,10 @@
 #novaContent.faux  {
 	background: url("/gemini/images/faux.png") repeat-y scroll 0 0 #FFFFFF;
 }
+
+h1, h2, h3, h4 {
+	color: #002E62;
+}	
 
 a {
 	color: #002E62;
