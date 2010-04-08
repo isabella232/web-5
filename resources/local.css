@@ -25,7 +25,7 @@
 }
 
 #novaContent.faux  {
-	background: url("/gemini/images/faux.png") repeat-y scroll 0 0 #FFFFFF;
+	background: url("/gemini/web/images/faux.png") repeat-y scroll 0 0 #FFFFFF;
 }
 
 h1, h2, h3, h4 {
@@ -52,5 +52,5 @@ a:hover {
 }
 
 #novaContent li {
-	list-style-image: url("/gemini/images/bullet.png");
+	list-style-image: url("/gemini/web/images/bullet.png");
 }
