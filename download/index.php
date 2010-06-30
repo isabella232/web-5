@@ -38,7 +38,7 @@
 	<br />
 	<p>
 		<strong>Gemini Web</strong> -  
-		<a href="http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/<?=$geminiWebVersion ?>/gemini-web-<?=$geminiWebVersion ?>.zip" target="_self">Download</a>
+		<a href="http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/<?=$geminiWebVersion ?>/gemini-web-incubation-<?=$geminiWebVersion ?>.zip" target="_self">Download</a>
 	</p>
 
 	</div>
