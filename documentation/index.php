@@ -19,7 +19,7 @@
  *******************************************************************************/
 
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Gemini OSGi Runtime - Documentation";
+	$pageTitle 		= "Gemini Web OSGi Runtime - Documentation";
 	$pageKeywords	= "Eclipse, EclipseRT, Gemini, OSGi, Documentation";
 	$pageAuthor		= "Christopher Frost";
 		
@@ -27,14 +27,12 @@
 ?>
 	
 	<div id="midcolumn">
-		<h2>Work in progress, Gemini docs coming soon</h2>
+		<h2>Gemini Web Documentation</h2>
 		<p>
-			In the mean time you can view the docs for dm Server 2.0.1.RELEASE here which includes the OSGi web container;
-			<ul>
-				<li>User Guide ( <a href="http://static.springsource.org/s2-dmserver/2.0.x/user-guide/html/">HTML</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/user-guide/htmlsingle/user-guide.html">HTML Single</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/user-guide/pdf/user-guide.pdf">PDF</a> )</li>
-				<li>Programmer Guide ( <a href="http://static.springsource.org/s2-dmserver/2.0.x/programmer-guide/html/">HTML</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/programmer-guide/htmlsingle/programmer-guide.html">HTML Single</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/programmer-guide/pdf/programmer-guide.pdf">PDF</a> )</li>
-				<li>Creating an Application with dm Server ( <a href="http://static.springsource.org/s2-dmserver/2.0.x/getting-started/html/">HTML</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/getting-started/htmlsingle/getting-started.html">HTML Single</a> | <a href="http://static.springsource.org/s2-dmserver/2.0.x/getting-started/pdf/getting-started.pdf">PDF</a> )</li>
-			</ul>
+			Gemini Web implements the Web Container defined by the Web Applications
+			Specification chapter of the OSGi Service Platform Release 4 Version 4.2
+			Enterprise Specification. This specification may be downloaded
+			<a href="http://www.osgi.org/Download/Release4V42">here</a>.
 		</p>
 
 	</div>

@@ -22,17 +22,24 @@
 	$pageTitle 		= "Gemini OSGi Runtime - Downloads";
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Christopher Frost";
-		
+	
+	$geminiWebVersion = "1.1.0.M01";
+	
 	ob_start();
 ?>
 	
 	<div id="midcolumn">
-		<h2>Downloads - coming soon.</h2>
+		<h2>Downloads.</h2>
 		<p>
 			All downloads are provided under the terms and conditions of the <a href="/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> 
 			unless otherwise specified.
 		</p>
-
+        <h2>Latest milestone of Gemini Web (<?=$geminiWebVersion ?>)</h2>
+	<br />
+	<p>
+		<strong>Gemini Web</strong> -  
+		<a href="http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/<?=$geminiWebVersion ?>/gemini-web-<?=$geminiWebVersion ?>.zip" target="_self">Download</a>
+	</p>
 
 	</div>
 
