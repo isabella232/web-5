@@ -26,12 +26,13 @@
 	
 	# Break the navigation into sections
 	$Nav->addNavSeparator("Gemini Home", 	"/gemini/web/");
+	$Nav->addCustomNav("About This Project", 		"http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini.web",    		"_self", 3);
 	$Nav->addCustomNav("Gemini Web Home",	"/gemini/web/", 				"_self", 3);
 	$Nav->addCustomNav("Download", 			"/gemini/web/download", 		"_self", 3);
 	$Nav->addCustomNav("Documentation", 	"/gemini/web/documentation",	"_self", 3);
 	$Nav->addCustomNav("Support", 			"/gemini/web/support", 			"_self", 3);
 	$Nav->addCustomNav("Getting Involved", 	"/gemini/web/contribute",		"_self", 3);
-	$Nav->addCustomNav("About Gemini", 		"/gemini/web/about",    		"_self", 3);
+	$Nav->addCustomNav("Background", 		"/gemini/web/about",    		"_self", 3);
 
 	# Define keywords, author and title here, or in each PHP page specifically
 	# $pageKeywords	= "eclipse, OSGi, gemini";
