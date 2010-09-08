@@ -23,7 +23,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Christopher Frost";
 	
-	$geminiWebVersion = "1.1.0.M03-incubation";
+	$geminiWebVersion = "1.1.0.M04-incubation";
 	
 	ob_start();
 ?>
