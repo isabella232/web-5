@@ -44,7 +44,7 @@
 				<li><a href="http://wiki.eclipse.org/Gemini">Gemini Wiki</a></li>
 				<li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=153&">Gemini Forum</a></li>  
 				<li><a href="https://dev.eclipse.org/mailman/listinfo/gemini-dev">Developer Mailing List</a></li>
-				<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini">Project Summary</a></li>
+				<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini.web">Subproject Summary</a></li>
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;classification=RT;product=Gemini">Gemini Bugzilla</a></li>
 			</ul>
 		</div>
