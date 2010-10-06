@@ -23,10 +23,16 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Christopher Frost";
 	
-	$geminiWebVersion = "1.1.0.RC1-incubation";
+	$geminiWebVersions = array("1.1.0.RC1-incubation", "1.1.0.M04-incubation", "1.1.0.M03-incubation", "1.1.0.M02-incubation", "1.1.0.M01");
 	
 	ob_start();
 ?>
+
+	<script type="text/javascript">
+            window.addEvent('domready', function() {
+                    new Accordion('h4.toggle', 'div.accordion', {initialDisplayFx: false});
+            });
+	</script>
 	
 	<div id="midcolumn">
 		<h2>Downloads.</h2>
@@ -34,12 +40,28 @@
 			All downloads are provided under the terms and conditions of the <a href="/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> 
 			unless otherwise specified.
 		</p>
-        <h2>Latest milestone of Gemini Web (<?=$geminiWebVersion ?>)</h2>
-	<br />
-	<p>
-		<strong>Gemini Web</strong> -  
-		<a href="http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/<?=$geminiWebVersion ?>/gemini-web-<?=$geminiWebVersion ?>.zip" target="_self">Download</a>
-	</p>
+		
+	<?
+	$first = true;
+	foreach ($geminiWebVersions as $version){
+		echo "<h4 class='toggle'>$version";
+		if ($first) {
+			echo " - Latest</h4>";
+		} else {
+			echo "</h4>";
+		}
+		echo "<div class='accordion'>";
+		echo "	<ul>";
+		echo "		<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/$version.php' target='_self'>View Release Notes</a></li>";
+		echo "		<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
+		if ($first) {
+			echo "		| <a href='http://www.eclipse.org/gemini/web/documentation/' target='_self'>Browse</a></li>";
+		}
+		echo "	</ul>";
+		echo "</div>";
+		$first = false;
+	}
+	?>
 
 	</div>
 
