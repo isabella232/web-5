@@ -31,7 +31,7 @@
 <h3>1.1.0.M04-incubation - Release Notes</h3>
 <p>The blog post is available <a href="http://blog.springsource.com/2010/09/08/gemini-web-milestone-4/" target="_self">here</a>.</p>
 
-<p>Notable changes:</p>
+<p>Notable improvements:</p>
 <ul>
 	<li>Upgrade to Tomcat 6.0.29 (plus SpringSource mods) to close some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
 	<li>Restructure Tomcat bundles to enable clustering to work &#8211; see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322983">bug 322983</a></li>

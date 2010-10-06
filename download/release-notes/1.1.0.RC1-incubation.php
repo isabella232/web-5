@@ -31,7 +31,7 @@
 <h3>1.1.0.RC1-incubation - Release Notes</h3>
 <p>The blog post is available <a href="http://blog.springsource.com/2010/10/04/gemini-web-release-candidate/" target="_self">here</a>.</p>
 
-<p>Includes the following issues:</p>
+<p>Notable improvements:</p>
 
 <ul>
 	<li>WAR extraction when installing a web application</li>

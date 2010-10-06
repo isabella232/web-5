@@ -34,7 +34,7 @@
 <p>Notably this release includes the following bug fixes:</p>
 
 <ul>
-	<li>As a user, I would like to configure Context elements for all web apps</li>
+	<li>Configure Context elements for all web apps</li>
 	<li>EquinoxBundleFileResolver.canUse throws NoClassDefFoundError when BundleHost cannot be loaded</li>
 </ul>
 
