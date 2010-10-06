@@ -28,10 +28,15 @@
 
 <div id="midcolumn">
 
-<h3>2.1.0.M01 - Release Notes</h3>
-<p>The blog post is available <a href="http://blog.springsource.com/2010/06/17/first-virgo-milestone-ships/" target="_self">here</a>.</p>
+<h3>1.1.0.M04-incubation - Release Notes</h3>
+<p>The blog post is available <a href="http://blog.springsource.com/2010/09/08/gemini-web-milestone-4/" target="_self">here</a>.</p>
 
-<p>This release contains all the changes required to become an Eclispe project</p>
+<p>Notable changes:</p>
+<ul>
+	<li>Upgrade to Tomcat 6.0.29 (plus SpringSource mods) to close some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
+	<li>Restructure Tomcat bundles to enable clustering to work &#8211; see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322983">bug 322983</a></li>
+	<li>Various test and build improvements</li>
+</ul>
 
 </div>
 

@@ -28,10 +28,11 @@
 
 <div id="midcolumn">
 
-<h3>2.1.0.M01 - Release Notes</h3>
-<p>The blog post is available <a href="http://blog.springsource.com/2010/06/17/first-virgo-milestone-ships/" target="_self">here</a>.</p>
+<h3>1.1.0.M01 - Release Notes</h3>
 
-<p>This release contains all the changes required to become an Eclispe project</p>
+<p>The blog post is available <a href="http://blog.springsource.com/2010/06/30/first-eclipse-gemini-web-milestone-ships/" target="_self">here</a>.</p>
+
+<p>This release contains all the changes required to become an Eclispe project after the donation from Springsource of the OSGi web container reference implementation.</p>
 
 </div>
 

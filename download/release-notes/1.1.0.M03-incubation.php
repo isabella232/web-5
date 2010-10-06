@@ -28,10 +28,15 @@
 
 <div id="midcolumn">
 
-<h3>2.1.0.M01 - Release Notes</h3>
-<p>The blog post is available <a href="http://blog.springsource.com/2010/06/17/first-virgo-milestone-ships/" target="_self">here</a>.</p>
+<h3>1.1.0.M03-incubation - Release Notes</h3>
+<p>Bug list is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=RT;product=Gemini.Web;target_milestone=1.1.0.M03-incubation" target="_self">here</a>.</p>
 
-<p>This release contains all the changes required to become an Eclispe project</p>
+<p>Notably this release includes the following bug fixes:</p>
+
+<ul>
+	<li>As a user, I would like to configure Context elements for all web apps</li>
+	<li>EquinoxBundleFileResolver.canUse throws NoClassDefFoundError when BundleHost cannot be loaded</li>
+</ul>
 
 </div>
 

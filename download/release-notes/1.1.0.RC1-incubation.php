@@ -28,10 +28,18 @@
 
 <div id="midcolumn">
 
-<h3>2.1.0.M01 - Release Notes</h3>
-<p>The blog post is available <a href="http://blog.springsource.com/2010/06/17/first-virgo-milestone-ships/" target="_self">here</a>.</p>
+<h3>1.1.0.RC1-incubation - Release Notes</h3>
+<p>The blog post is available <a href="http://blog.springsource.com/2010/10/04/gemini-web-release-candidate/" target="_self">here</a>.</p>
 
-<p>This release contains all the changes required to become an Eclispe project</p>
+<p>Includes the following issues:</p>
+
+<ul>
+	<li>WAR extraction when installing a web application</li>
+	<li>Welcome file in a subdirectory is not invoked</li>
+	<li>PackageInWarScannerTests finds lots more packages in simple-war than before</li>
+	<li>Remove javax.xml.ws dependencies from test configurations and Ivy files</li>
+</ul>
+
 
 </div>
 
