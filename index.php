@@ -29,9 +29,9 @@
 	<div id="midcolumn">
 		<div class="logo"><h1>Gemini Web Container</h1></div>
 		<p>
-			The Gemini Web Container is based on the Reference Implementation of RFC66 from the OSGi Alliance. To learn more about the Web 
-			Container you can read this <a href="http://blog.springsource.com/2009/05/27/introduction-to-the-osgi-web-container/">
-			Blog post</a> and the <a href="http://www.eclipse.org/gemini/web/documentation">documentation</a>.
+			Gemini Web is based on the Reference Implementation of the Web Applications Specification from the OSGi Alliance.
+			To learn more about Gemini Web you can read this <a href="http://blog.springsource.com/2009/05/27/introduction-to-the-osgi-web-container/">
+			blog post</a> and the <a href="http://www.eclipse.org/gemini/web/documentation">documentation</a>.
 		</p>
 		
 	</div>
