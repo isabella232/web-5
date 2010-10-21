@@ -62,18 +62,6 @@
 
 	</div>
 
-	<!-- remove the entire <div> tag to omit the right column!  -->
-	<div id="rightcolumn">
-		<div class="sideitem">
-			<h6>Incubation</h6>
-			<div id="incubation">
-				<a href="/projects/what-is-incubation.php">
-					<img align="center" src="/gemini/web/images/egg-incubation.png" border="0" alt="Incubation" />
-				</a>
-			</div>
-		</div>
-	</div>
-
 <?
 	$html = ob_get_clean();
 	# Generate the web page

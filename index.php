@@ -48,14 +48,6 @@
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;order=Importance;classification=RT;product=Gemini">Gemini Bugzilla</a></li>
 			</ul>
 		</div>
-		<div class="sideitem">
-			<h6>Incubation</h6>
-			<div id="incubation">
-				<a href="/projects/what-is-incubation.php">
-					<img align="center" src="/gemini/web/images/egg-incubation.png" border="0" alt="Incubation" />
-				</a>
-			</div>
-		</div>		
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
 				<div class="modal">
