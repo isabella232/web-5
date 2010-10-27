@@ -58,12 +58,12 @@ which is the Reference Implementation of the OSGi Web Applications specification
 </ul>
 <p>Other improvements and bug fixes:<p/>
 <ul>
-	<li>Bug 322983: Restructure Tomcat bundles to enable clustering to work</li>
-	<li>Bug 312752: Support Tomcat context configuration</li>
-	<li>Bug 319519: EquinoxBundleFileResolver.canUse throws NoClassDefFoundError when BundleHost cannot be loaded</li>
 	<li>Bug 307393: WAR extraction when installing a web application</li>
 	<li>Bug 308985: Welcome file in a subdirectory is not invoked</li>
+	<li>Bug 312752: Support Tomcat context configuration</li>
+	<li>Bug 319519: EquinoxBundleFileResolver.canUse throws NoClassDefFoundError when BundleHost cannot be loaded</li>
 	<li>Bug 319782: Enable Gemini Web to run on Apache Felix</li>
+	<li>Bug 322983: Restructure Tomcat bundles to enable clustering to work</li>
 	<li>Various test and build improvements</li>
 </ul>
 
