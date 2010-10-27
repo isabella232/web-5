@@ -19,7 +19,7 @@
  *******************************************************************************/
 
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Virgo OSGi Runtime - Release Notes";
+	$pageTitle 		= "Gemini Web - Release Notes";
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Christopher Frost";
 		
