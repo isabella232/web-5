@@ -45,7 +45,7 @@ which is the Reference Implementation of the OSGi Web Applications specification
 
 <h4>Highlights</h4>
 
-<p>Code donations (<a href="http://wiki.eclipse.org/Virgo/Source">source code</a>), repackaged to the org.eclipse namespace and dual-licensed under the Eclipse Public License v1.0 and the Apache Software License v2.0:</p>
+<p>Code donations (<a href="http://git.eclipse.org/c/gemini.web/org.eclipse.gemini.web.gemini-web-container.git/tree">source code</a>), repackaged to the org.eclipse namespace and dual-licensed under the Eclipse Public License v1.0 and the Apache Software License v2.0:</p>
 <ul>
     <li>Donate SpringSource OSGi Web Container to form Gemini Web Container</li>
     <li>Donate unit and integration test suites</li>
