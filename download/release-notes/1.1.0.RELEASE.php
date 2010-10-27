@@ -54,6 +54,7 @@ which is the Reference Implementation of the OSGi Web Applications specification
 <ul>
     <li>Upgrade Tomcat to 6.0.29 (plus modifications to support embedding) - closes off some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
     <li>Upgrade SpringSource dm Server utilities to Virgo 2.1.0.RELEASE utilities</li>
+    <li>Upgrade Spring Build to Virgo Build</li>
 </ul>
 <p>Other improvements and bug fixes:<p/>
 <ul>
