@@ -30,7 +30,7 @@
 		<h2>Community Forum</h2>
 		<p>
 			The Gemini Forum is intended for user community discussions on Gemini Web usage and troubleshooting.
-			Developers extending Gemini should refer to the <a href="http://wiki.eclipse.org/Gemini/Web">Gemini web wiki</a> and the
+			Developers extending Gemini Web should refer to the <a href="http://wiki.eclipse.org/Gemini/Web">Gemini web wiki</a> and the
 			<a href="https://dev.eclipse.org/mailman/listinfo/gemini-dev">Gemini Developer mailing list</a>.
 		</p>
 		<ul>
