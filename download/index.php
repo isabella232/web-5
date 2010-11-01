@@ -44,7 +44,7 @@
 	<h4 class='toggle'>1.1.0.RELEASE - Latest</h4>
 	<div class='accordion'>
 		<ul>
-			<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179880">Download approved IP log</a>)</li>
+			<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179879">Download approved IP log</a>)</li>
 			<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.0.RELEASE/gemini-web-1.1.0.RELEASE.zip' target='_self'>Download</a></li>
 		</ul>
 	</div>
