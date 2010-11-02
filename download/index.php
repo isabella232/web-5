@@ -45,7 +45,7 @@
 	<div class='accordion'>
 		<ul>
 			<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179879">Download approved IP log</a>)</li>
-			<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.0.RELEASE/gemini-web-1.1.0.RELEASE.zip' target='_self'>Download</a></li>
+			<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.0.RELEASE/gemini-web-1.1.0.RELEASE.zip' target='_self'>Download</a> (Updated on 2 November 2010 to fix <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329264">bug 329264</a>)</li>
 		</ul>
 	</div>
 	
