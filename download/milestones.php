@@ -14,15 +14,17 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
- * Contributors: Christopher Frost
+ * Contributors: Glyn Normington
  *    
  *******************************************************************************/
 
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "Gemini Web - Release Downloads";
+	$pageTitle 		= "Gemini Web - Milestone Downloads";
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
-	$pageAuthor		= "Christopher Frost";
-		
+	$pageAuthor		= "Glyn Normington";
+	
+	$geminiWebVersions = array("1.2.0.M01", "1.1.0.RC1-incubation", "1.1.0.M04-incubation", "1.1.0.M03-incubation", "1.1.0.M02-incubation", "1.1.0.M01");
+	
 	ob_start();
 ?>
 
@@ -33,26 +35,35 @@
 	</script>
 	
 	<div id="midcolumn">
-		<h2>Gemini Web Downloads</h2>
+		<h2>Milestone Downloads</h2>
 		<p>
 			All downloads are provided under the terms and conditions of the <a href="/legal/epl/notice.php">Eclipse Foundation Software User Agreement</a> 
 			unless otherwise specified.
 		</p>
 		
-	<h4 class='toggle'>1.1.0.RELEASE</h4>
-	<div class='accordion'>
-		<ul>
-			<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179879">Download approved IP log</a>)</li>
-			<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.0.RELEASE/gemini-web-1.1.0.RELEASE.zip' target='_self'>Download</a> (Updated on 2 November 2010 to fix <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329264">bug 329264</a>)</li>
-		</ul>
-	</div>
-
-	<h2>Development Milestones</h2>
-	<p>
-		Development milestones are available for <a href="http://www.eclipse.org/gemini/web/download/milestones.php">download</a>. 
-	</p>
-
+		<p>
+			The following are development milestones. You may prefer to <a href="http://www.eclipse.org/gemini/web/download/">download</a> an official release.
+		</p>
 	
+	<?
+	$first = true;
+	foreach ($geminiWebVersions as $version){
+		echo "<h4 class='toggle'>$version";
+		if ($first) {
+			echo " - Latest</h4>";
+		} else {
+			echo "</h4>";
+		}
+		echo "<div class='accordion'>";
+		echo "	<ul>";
+		echo "		<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/$version.php' target='_self'>View Release Notes</a></li>";
+		echo "		<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
+		echo "	</ul>";
+		echo "</div>";
+		$first = false;
+	}
+	?>
+
 	</div>
 
 <?
