@@ -34,7 +34,7 @@
 		The purpose of this milestone is to provide a consistent base for the 3.0.0.M03 release of Virgo.
 	</p>
 	<p>
-		There were some build problems with 1.2.0.M02 release and there is no zip avaliable
+		There were some build problems with 1.2.0.M02 release and there is no zip avaliable, a list of the issues resolve in both 1.2.0.M02 and 1.2.0.M03 are available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?classification=RT&product=Gemini.web&query_format=advanced&target_milestone=1.2.0.M02,1.2.0.M03&order=bug_severity,changeddate,bug_status,priority,assigned_to,bug_id&query_based_on=">here</a>.
 	</p>
 
 </div>
