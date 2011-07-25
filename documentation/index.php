@@ -39,7 +39,7 @@
 		
 		<h2>Milestone Documentation</h2>
 		<p>
-			The documentation for the latest milestone of Virgo can be downloaded from <a href="http://www.eclipse.org/virgo/download/" target="_self">here</a> or it is browseable online below:
+			The documentation for the latest milestone of Gemini Web is browseable online below:
 			
 			<ul>
 				<li>User Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">HTML Single</a> )</li>
