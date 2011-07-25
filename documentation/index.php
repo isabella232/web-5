@@ -23,6 +23,8 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Gemini, OSGi, Documentation";
 	$pageAuthor		= "Christopher Frost";
 		
+		
+	$milestone = "2.0.0.x";
 	ob_start();
 ?>
 	
@@ -34,6 +36,18 @@
 			Enterprise Specification. This specification may be downloaded
 			<a href="http://www.osgi.org/Download/Release4V42">here</a>.
 		</p>
+		
+		<h2>Milestone Documentation</h2>
+		<p>
+			The documentation for the latest milestone of Virgo can be downloaded from <a href="http://www.eclipse.org/virgo/download/" target="_self">here</a> or it is browseable online below:
+			
+			<ul>
+				<li>User Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">HTML Single</a> )</li>
+				
+				<li>Programmer Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/htmlsingle/gemini-web-programmer-guide.html">HTML Single</a> )</li>
+			</ul>
+		</p>
+
 
 	</div>
 
