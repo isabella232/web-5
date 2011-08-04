@@ -38,7 +38,7 @@ Release Candidate 2 represents a bug freeze for Gemini Web 2.0. Unless critical 
 
 <ul>
 	<li>Upgraded javax.servlet.jsp.jstl to 1.2 tag.</li>
-	<li>Packaged zip now includes the documentation.</li>
+	<li>Packaged zip now includes documentation.</li>
 </ul>
 
 </div>
