@@ -30,7 +30,7 @@
 
 <h3>2.0.0.RC2 - Release Notes</h3>
 <p>
-Release Candidate 2 represents a bug freeze for Gemini Web 2.0. Unless critical bugs are found in RC2, the only changes before 2.0 is released will be in documentation.
+Release Candidate 2 represents a bug and documentation freeze for Gemini Web 2.0. Unless critical bugs are found in RC2, the only changes before 2.0 is released will be in documentation.
 </p>
 <p>Bug list is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=RT;product=Gemini.Web;target_milestone=2.0.0.RC2" target="_self">here</a>.</p>
  
