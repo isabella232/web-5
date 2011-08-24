@@ -39,19 +39,26 @@
 			unless otherwise specified.
 		</p>
 		
-	<h4 class='toggle'>1.1.1.RELEASE</h4>
-	<div class='accordion'>
-		<ul>
-			<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.1.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179879">Download approved IP log</a>)</li>
-			<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.1.RELEASE/gemini-web-1.1.1.RELEASE.zip' target='_self'>Download</a> (Updated on 2 November 2010 to fix <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329264">bug 329264</a>)</li>
-		</ul>
-	</div>
+		<h4 class='toggle'>2.0.0.RELEASE</h4>
+		<div class='accordion'>
+			<ul>
+				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/2.0.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=200891">Download approved IP log</a>)</li>
+				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/2.0.0.RELEASE/gemini-web-2.0.0.RELEASE.zip' target='_self'>Download</a></li>
+				<li>Documentation is included with the download and can be viewed on line <a href="http://www.eclipse.org/gemini/web/documentation/">here</a>.
+			</ul>
+		</div>
+		<h4 class='toggle'>1.1.1.RELEASE</h4>
+		<div class='accordion'>
+			<ul>
+				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/1.1.1.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=179879">Download approved IP log</a>)</li>
+				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/release/GW/1.1.1.RELEASE/gemini-web-1.1.1.RELEASE.zip' target='_self'>Download</a> (Updated on 2 November 2010 to fix <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=329264">bug 329264</a>)</li>
+			</ul>
+		</div>
 
-	<h2>Development Milestones</h2>
-	<p>
-		Development milestones are available for <a href="http://www.eclipse.org/gemini/web/download/milestones.php">download</a>. 
-	</p>
-
+		<h2>Development Milestones</h2>
+		<p>
+			Development milestones are available for <a href="http://www.eclipse.org/gemini/web/download/milestones.php">download</a>. 
+		</p>
 	
 	</div>
 

@@ -23,31 +23,35 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Gemini, OSGi, Documentation";
 	$pageAuthor		= "Christopher Frost";
 		
-		
 	$milestone = "2.0.0.x";
+	$release = "2.0.0.RELEASE";
 	ob_start();
 ?>
 	
 	<div id="midcolumn">
 		<h2>Gemini Web Documentation</h2>
 		<p>
-			Gemini Web implements the Web Container defined by the Web Applications
-			Specification chapter of the OSGi Service Platform Release 4 Version 4.2
-			Enterprise Specification. This specification may be downloaded
-			<a href="http://www.osgi.org/Download/Release4V42">here</a>.
+			Gemini Web implements the Web Container defined by the Web Applications Specification chapter of the OSGi Service Platform Release 4 Version 4.2
+			Enterprise Specification. This specification may be downloaded <a href="http://www.osgi.org/Download/Release4V42">here</a>.
+		</p>
+		
+		<h2>Release Documentation</h2>
+		<p>
+			The documentation for the latest release of Gemini Web is browseable online below:
+			<ul>
+				<li>User Guide ( <a href="gemini-web-documentation-<?=$release ?>/gemini-web-user-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$release ?>/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">HTML Single</a> )</li>
+				<li>Programmer Guide ( <a href="gemini-web-documentation-<?=$release ?>/gemini-web-programmer-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$release ?>/gemini-web-programmer-guide/htmlsingle/gemini-web-programmer-guide.html">HTML Single</a> )</li>
+			</ul>
 		</p>
 		
 		<h2>Milestone Documentation</h2>
 		<p>
 			The documentation for the latest milestone of Gemini Web is browseable online below:
-			
 			<ul>
 				<li>User Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">HTML Single</a> )</li>
-				
 				<li>Programmer Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/htmlsingle/gemini-web-programmer-guide.html">HTML Single</a> )</li>
 			</ul>
 		</p>
-
 
 	</div>
 
