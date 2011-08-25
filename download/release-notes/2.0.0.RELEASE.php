@@ -48,6 +48,7 @@ Since Tomcat was upgraded by a major version number, the major version number of
 <ul>
 	<li>Upgrade to Tomcat 7.0.12</li>
 	<li>Support latest Java Servlet, JavaServer Pages and Expression Language specifications</li>
+	<li>Provide a new <a href="http://www.eclipse.org/gemini/web/documentation/gemini-web-documentation-2.0.0.RELEASE/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">user guide</a></li>
 	<li>Enable default web.xml to be customised without having to modify org.eclipse.gemini.web.tomcat bundle</li>
 	<li>Support strict OSGi resolver mode (when internal Equinox packages are not used)</li>
 	<li>Improved decoding of web URL query strings</li>
