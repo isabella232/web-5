@@ -30,7 +30,7 @@
 
 <h3>2.0.1.RELEASE - Release Notes</h3>
 
-<p>The <a href="http://wiki.eclipse.org/Virgo/Future#Release_Branding">Maya</a> (2.0) release of Gemini Web
+<p>The <a href="http://wiki.eclipse.org/Virgo/Future#Release_Branding">Maya</a> (2.0.1) release of Gemini Web
 upgrades Gemini Web to pick up Tomcat 7.0.21 which includes a fix for a serious security issue. You can read 
 more about it <a href="http://tomcat.apache.org/tomcat-7.0-doc/changelog.html">here</a>.</p>
 <p>
