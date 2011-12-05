@@ -57,7 +57,7 @@
 		echo "<div class='accordion'>";
 		echo "	<ul>";
 		echo "		<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/$version.php' target='_self'>View Release Notes</a></li>";
-		echo "		<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini.web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
+		echo "		<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
 		echo "	</ul>";
 		echo "</div>";
 		$first = false;
