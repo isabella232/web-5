@@ -44,6 +44,8 @@
 			</ul>
 		</p>
 		
+		<!-- Comment out until there is a milestone.
+		
 		<h2>Milestone Documentation</h2>
 		<p>
 			The documentation for the latest milestone of Gemini Web is browseable online below:
@@ -52,6 +54,8 @@
 				<li>Programmer Guide ( <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/html/index.html">HTML</a> | <a href="gemini-web-documentation-<?=$milestone ?>/gemini-web-programmer-guide/htmlsingle/gemini-web-programmer-guide.html">HTML Single</a> )</li>
 			</ul>
 		</p>
+		
+		-->
 
 	</div>
 
