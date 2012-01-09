@@ -23,7 +23,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Gemini, OSGi, Documentation";
 	$pageAuthor		= "Christopher Frost";
 		
-	$milestone = "2.0.0.x";
+	$milestone = "2.1.0.x";
 	$release = "2.0.1.RELEASE";
 	ob_start();
 ?>
@@ -44,8 +44,6 @@
 			</ul>
 		</p>
 		
-		<!-- Comment out until there is a milestone.
-		
 		<h2>Milestone Documentation</h2>
 		<p>
 			The documentation for the latest milestone of Gemini Web is browseable online below:
@@ -55,8 +53,6 @@
 			</ul>
 		</p>
 		
-		-->
-
 	</div>
 
 <?
