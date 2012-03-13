@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *    
  *******************************************************************************/
 
@@ -40,6 +41,15 @@
 		</p>
 		
 		
+		<h4 class='toggle'>2.0.2.RELEASE</h4>
+		<div class='accordion'>
+			<ul>
+				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/2.0.2.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=200887">Download approved IP log</a>)</li>
+				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/release/GW/2.0.2.RELEASE/gemini-web-2.0.2.RELEASE.zip' target='_self'>Download</a></li>
+				<li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/updates/web/2.0.2/' target='_self'>http://download.eclipse.org/gemini/updates/web/2.0.2/</a></li>
+				<li>Documentation is included with the download and can be viewed on line <a href="http://www.eclipse.org/gemini/web/documentation/">here</a>.
+			</ul>
+		</div>
 		<h4 class='toggle'>2.0.1.RELEASE</h4>
 		<div class='accordion'>
 			<ul>
