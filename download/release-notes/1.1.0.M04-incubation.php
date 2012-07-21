@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *    
  *******************************************************************************/
 
@@ -33,8 +34,8 @@
 
 <p>Notable improvements:</p>
 <ul>
-	<li>Upgrade to Tomcat 6.0.29 (plus SpringSource mods) to close some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
-	<li>Restructure Tomcat bundles to enable clustering to work &#8211; see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322983">bug 322983</a></li>
+	<li>Upgrade to Apache Tomcat 6.0.29 (plus SpringSource mods) to close some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
+	<li>Restructure Apache Tomcat bundles to enable clustering to work &#8211; see <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=322983">bug 322983</a></li>
 	<li>Various test and build improvements</li>
 </ul>
 

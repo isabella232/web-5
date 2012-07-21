@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *
  *    
  *******************************************************************************/
@@ -29,7 +30,7 @@
 	<div id="midcolumn">
 		<div class="logo"><h1>Gemini Web Container</h1></div>
 		<p>
-			Gemini Web is based on the Reference Implementation of the Web Applications Specification from the OSGi Alliance.
+			Gemini Web is the Reference Implementation of the Web Applications Specification from the OSGi Alliance.
 			To learn more about Gemini Web you can read this <a href="http://blog.springsource.com/2009/05/27/introduction-to-the-osgi-web-container/">
 			blog post</a> and the <a href="http://www.eclipse.org/gemini/web/documentation">documentation</a>.
 		</p>

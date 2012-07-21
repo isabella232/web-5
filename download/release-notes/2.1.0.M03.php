@@ -32,7 +32,7 @@
 <p>Bug list is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=RT;product=Gemini.Web;target_milestone=2.1.0.M03" target="_self">here</a>.</p>
 <p>Notable improvements:</p>
 <ul>
-	<li>Upgrade to Tomcat 7.0.26</li>
+	<li>Upgrade to Apache Tomcat 7.0.26</li>
 </ul>
 
 </div>

@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *    
  *******************************************************************************/
 
@@ -52,7 +53,7 @@ which is the Reference Implementation of the OSGi Web Applications specification
 </ul>
 <p>Dependency upgrades:</p>
 <ul>
-    <li>Upgrade Tomcat to 6.0.29 (plus modifications to support embedding) - closes off some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
+    <li>Upgrade Apache Tomcat to 6.0.29 (plus modifications to support embedding) - closes off some <a href="http://tomcat.apache.org/security-6.html#Fixed_in_Apache_Tomcat_6.0.28">security vulnerabilities</a></li>
     <li>Upgrade SpringSource dm Server utilities to Virgo 2.1.0.RELEASE utilities</li>
     <li>Upgrade Spring Build to Virgo Build</li>
 </ul>
@@ -60,10 +61,10 @@ which is the Reference Implementation of the OSGi Web Applications specification
 <ul>
 	<li>Bug 307393: WAR extraction when installing a web application</li>
 	<li>Bug 308985: Welcome file in a subdirectory is not invoked</li>
-	<li>Bug 312752: Support Tomcat context configuration</li>
+	<li>Bug 312752: Support Apache Tomcat context configuration</li>
 	<li>Bug 319519: EquinoxBundleFileResolver.canUse throws NoClassDefFoundError when BundleHost cannot be loaded</li>
 	<li>Bug 319782: Enable Gemini Web to run on Apache Felix</li>
-	<li>Bug 322983: Restructure Tomcat bundles to enable clustering to work</li>
+	<li>Bug 322983: Restructure Apache Tomcat bundles to enable clustering to work</li>
 	<li>Various test and build improvements</li>
 </ul>
 

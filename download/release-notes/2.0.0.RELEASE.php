@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *    
  *******************************************************************************/
 
@@ -31,11 +32,11 @@
 <h3>2.0.0.RELEASE - Release Notes</h3>
 
 <p>The <a href="http://wiki.eclipse.org/Virgo/Future#Release_Branding">Maya</a> (2.0) release of Gemini Web
-upgrades Gemini Web to pick up Tomcat 7 and Servlet 3.0 support
+upgrades Gemini Web to pick up Apache Tomcat 7 and Servlet 3.0 support
 and delivers several smaller enhancements and bug fixes.</p>
 <p>
 <p>
-Since Tomcat was upgraded by a major version number, the major version number of Gemini Web has been incremented.
+Since Apache Tomcat was upgraded by a major version number, the major version number of Gemini Web has been incremented.
 </p>
 
 <h4>Acknowledgements</h4>
@@ -46,7 +47,7 @@ Since Tomcat was upgraded by a major version number, the major version number of
 <h4>Notable Improvements</h4>
 
 <ul>
-	<li>Upgrade to Tomcat 7.0.12</li>
+	<li>Upgrade to Apache Tomcat 7.0.12</li>
 	<li>Support latest Java Servlet, JavaServer Pages and Expression Language specifications</li>
 	<li>Provide a new <a href="http://www.eclipse.org/gemini/web/documentation/gemini-web-documentation-2.0.0.RELEASE/gemini-web-user-guide/htmlsingle/gemini-web-user-guide.html">user guide</a></li>
 	<li>Enable default web.xml to be customised without having to modify org.eclipse.gemini.web.tomcat bundle</li>

@@ -8,13 +8,14 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *
  * Contributors: Christopher Frost
+ * Contributors: Violeta Georgieva
  *    
  *******************************************************************************/
 
@@ -37,7 +38,7 @@ which is the Reference Implementation of the OSGi Web Applications specification
 
 <p>Dependency upgrades:</p>
 <ul>
-    <li>Upgrade Tomcat to 6.0.32 (plus modifications to support embedding) - closes off some security vulnerabilities, see <a href="http://tomcat.apache.org/tomcat-6.0-doc/changelog.html">Tomcat 6.0.32</a></li>
+    <li>Upgrade Apache Tomcat to 6.0.32 (plus modifications to support embedding) - closes off some security vulnerabilities, see <a href="http://tomcat.apache.org/tomcat-6.0-doc/changelog.html">Apache Tomcat 6.0.32</a></li>
     <li>Upgrade SpringSource dm Server utilities to Virgo 2.1.1.RELEASE utilities</li>
 </ul>
 

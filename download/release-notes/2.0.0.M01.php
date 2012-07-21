@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2012 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -34,11 +34,11 @@
 <p>Notable improvements:</p>
 
 <ul>
-	<li>Upgrade to Tomcat 7.0.12</li>
+	<li>Upgrade to Apache Tomcat 7.0.12</li>
 	<li>Support latest Java Servlet, JavaServer Pages and Expression Language specifications</li>
 </ul>
 
-<p>Since Tomcat was upgraded by a major version number, we decided to upgrade the major version number of Gemini Web.</p>
+<p>Since Apache Tomcat was upgraded by a major version number, we decided to upgrade the major version number of Gemini Web.</p>
 
 </div>
 
