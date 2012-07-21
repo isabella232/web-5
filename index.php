@@ -41,6 +41,7 @@
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
+			<div class="modal">
 			<ul>
 				<li><a href="http://wiki.eclipse.org/Gemini/Web">Gemini Web Wiki</a></li>
 				<li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=153&">Gemini Forum</a></li>  
@@ -48,6 +49,11 @@
 				<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini.web">Subproject Summary</a></li>
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Gemini.Web">Gemini Web Bugzilla</a></li>
 			</ul>
+			</div>
+			<h6>New and Noteworthy</h6>
+            <div class="modal">
+            <p>Gemini Web 2.1.0 RELEASE is available!</p>
+            </div>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
