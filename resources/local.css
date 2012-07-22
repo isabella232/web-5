@@ -63,3 +63,32 @@ a:hover {
 .toggle:hover {
 	color: #0093CF;
 }
+
+#packaging {
+	margin: 5px;
+    border: 1px solid #DDDDDD;
+    border-collapse: separate;
+    border-radius: 4px 4px 4px 4px;
+    width: 100%;
+}
+
+#packaging th {
+	font-weight: bold;
+	border-top: 1px solid #DDDDDD;
+}
+
+#packaging td {
+	border-top: 1px solid #DDDDDD;
+}
+
+#packaging th, #packaging td {
+	padding: 7px 8px;
+}
+
+#packaging .packaging-content {
+	text-align: center;
+}
+
+#packaging .zebra {
+	background-color: #E8F6FF;
+}
