@@ -47,6 +47,13 @@
 				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/2.1.0.RELEASE.php' target='_self'>View Release Notes</a> (<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=219018">Download approved IP log</a>)</li>
 				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/release/GW/2.1.0.RELEASE/gemini-web-2.1.0.RELEASE.zip' target='_self'>Download</a></li>
 				<li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/updates/web/2.1.0/' target='_self'>http://download.eclipse.org/gemini/updates/web/2.1.0/</a></li>
+				<li><strong>Gemini Web maven repository</strong> - <a href='http://download.eclipse.org/gemini/mvn/' target='_self'>http://download.eclipse.org/gemini/mvn/</a></li>
+                    <table>
+                    <tr><th class="packaging-content">groupId</th><th class="packaging-content">artifactId</th><th class="packaging-content">version</th></tr>
+                    <tr><td>org.eclipse.gemini</td><td>org.eclipse.gemini.web.core</td><td>2.1.0.RELEASE</td></tr>
+                    <tr><td>org.eclipse.gemini</td><td>org.eclipse.gemini.web.extender</td><td>2.1.0.RELEASE</td></tr>
+                    <tr><td>org.eclipse.gemini</td><td>org.eclipse.gemini.web.tomcat</td><td>2.1.0.RELEASE</td></tr>
+                    </table>
 				<li>Documentation is included with the download and can be viewed on line <a href="http://www.eclipse.org/gemini/web/documentation/">here</a>.
 			</ul>
 		</div>
