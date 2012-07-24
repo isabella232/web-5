@@ -31,15 +31,15 @@
 <h3>2.1.0.RELEASE - Release Notes</h3>
 
 <p>The <a href="http://wiki.eclipse.org/Virgo/Future#Release_Branding">Bondi</a> (2.1.0) release of Gemini Web
-provides OSGi JNDI integration, removal of Spring Framework dependency and Java 7 support.
+provides OSGi JNDI&trade; integration, removal of Spring Framework dependency and Java 7 support.
 Also it delivers several smaller enhancements and bug fixes.</p>
 <p>
 <h4>Notable Improvements</h4>
 
 <ul>
-	<li>OSGi JNDI integration</li>
+	<li>OSGi JNDI&trade; integration</li>
 	<li>Java 7 support</li>
-	<li>Upgrads to Apache Tomcat 7.0.26</li>
+	<li>Upgrade to Apache Tomcat 7.0.26</li>
 	<li>Removal of Spring Framework dependency</li>
 </ul>
 
