@@ -45,8 +45,8 @@ Also it delivers several smaller enhancements and bug fixes.</p>
 
 <p>A full list of bugs included in this release is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?list_id=2407161;classification=RT;query_format=advanced;component=unknown;target_milestone=2.1.0.M01;target_milestone=2.1.0.M02;target_milestone=2.1.0.M03;target_milestone=2.1.0.RC1;target_milestone=2.1.0.RELEASE;product=Gemini.Web" target="_self">here</a>.</p>
 <p>
-<h4>Migration Notes</h4>
-<h6>Removed Bundles</h6>
+<h4>Migration from Gemini Web 2.0.x to Gemini Web 2.1.0</h4>
+<h5>Removed Bundles</h5>
 <ul>
 	<li>com.springsource.org.aopalliance</li>
 	<li>com.springsource.org.apache.commons.logging</li>
@@ -58,7 +58,7 @@ Also it delivers several smaller enhancements and bug fixes.</p>
 	<li>org.springframework.osgi.io</li>
 </ul>
 <p>
-<h6>Bundles with changed symbolic names</h6>
+<h5>Bundles with changed symbolic names</h5>
 <ul>
 	<li>com.springsource.slf4j.api -> org.slf4j.api</li>
 	<li>com.springsource.slf4j.nop -> org.slf4j.nop</li>
