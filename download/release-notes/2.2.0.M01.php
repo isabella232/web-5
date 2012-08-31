@@ -36,9 +36,9 @@
 <ul>
 	<li>Updated Apache Tomcat to version 7.0.29 with web sockets support.</li>
 </ul>
-
+<p><p>
 <h4>Migration from Gemini Web 2.1.0 to Gemini Web 2.2.0.M01</h4>
-
+<p>
 <p>Removed Bundles</p>
 <ul>
 	<li>com.springsource.javax.xml.bind</li>
