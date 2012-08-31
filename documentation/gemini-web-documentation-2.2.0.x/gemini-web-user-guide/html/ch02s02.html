@@ -9,19 +9,18 @@
 			pageTracker._setAllowLinker(true);
 			pageTracker._trackPageview();
 		</script><!--End Google Analytics code--></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.2&nbsp;Installing from the ZIP Download</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02.html">Prev</a>&nbsp;</td><th width="60%" align="center">2.&nbsp;Installing Gemini Web</th><td width="20%" align="right">&nbsp;<a accesskey="n" href="ch03.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="installation-zip"></a>2.2&nbsp;Installing from the ZIP Download</h2></div></div></div><div class="itemizedlist"><ul type="disc"><li><p>
-					<a class="ulink" href="http://download.eclipse.org/equinox/" target="_top">Download</a> the Equinox JAR, for example <a class="ulink" href="http://download.eclipse.org/equinox/drops/R-3.6-201006080911/download.php?dropFile=org.eclipse.osgi_3.6.0.v20100517.jar" target="_top">org.eclipse.osgi_3.6.0.v20100517.jar</a>, and move it to a suitable directory (e.g. ~/gemini-web-test). 
+					<a class="ulink" href="http://download.eclipse.org/equinox/" target="_top">Download</a> the Equinox JAR, for example <a class="ulink" href="http://download.eclipse.org/equinox/drops/R-3.7.2-201202080800/download.php?dropFile=org.eclipse.osgi_3.7.2.v20120110-1415.jar" target="_top">org.eclipse.osgi_3.7.2.v20120110-1415.jar</a>, and move it to a suitable directory (e.g. ~/gemini-web-test). 
 					On the <a class="ulink" href="http://download.eclipse.org/equinox/" target="_top">Download</a> page, first choose the desired Release or Build, then download the JAR from the Framework section. 
 				</p></li><li><p>
 					Gemini Web Container is distributed as a ZIP file.
 					<a class="ulink" href="http://www.eclipse.org/gemini/web/download" target="_top">Download</a> Gemini Web Container and unzip it to ~/gemini-web-test/gemini-web. 
 				</p></li><li><p>
-					Configure Equinox by creating a directory ~/gemini-web-test/configuration and create files config.ini and Java6-server.profile in the configuration directory. 
-					Example files which work with 1.1.0.RELEASE are available in <a class="ulink" href="http://wiki.eclipse.org/images/5/5e/Config.ini.zip" target="_top">config.ini.zip</a> and <a class="ulink" href="http://wiki.eclipse.org/images/3/32/Java6-server.profile.zip" target="_top">Java6-server.profile.zip</a>. 
-					Essentially config.ini ensures that Java6-server.profile is used and that the dependencies of Gemini Web Container, which come in the dep directory, are installed and then the Gemini Web Container bundles are installed and started. 
-					Java6-server.profile ensures that javax.xml.ws is exported at version 2.1.1 from the system bundle as the Tomcat bundles in Gemini Web Container depend on that version. 
+					Configure Equinox by creating a directory ~/gemini-web-test/configuration and create a file config.ini in the configuration directory. 
+					Example file which works with 2.1.0.RELEASE is available in <a class="ulink" href="http://wiki.eclipse.org/images/2/23/Config.ini.2.1.0.zip" target="_top">config.ini.zip</a>. 
+					Essentially config.ini ensures that the dependencies of Gemini Web Container, which come in the dep directory, are installed and then the Gemini Web Container bundles are installed and started. 
 				</p></li><li><p>
 					Start Equinox as follows:
-					</p><pre class="programlisting">java -jar org.eclipse.osgi_3.6.0.v20100517.jar -console</pre></li><li><p>
+					</p><pre class="programlisting">java -jar org.eclipse.osgi_3.7.2.v20120110-1415.jar -console</pre></li><li><p>
 					You can then deploy WAR files (a trivial example is available in <a class="ulink" href="http://wiki.eclipse.org/images/a/a0/Simple-war.war.zip" target="_top">Simple-war.war.zip</a>) and web bundles using the install and start commands from the console.
 					</p><pre class="programlisting">osgi&gt; install file:simple-war.war
 Bundle id is 40

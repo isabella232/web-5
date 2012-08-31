@@ -24,7 +24,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Gemini, OSGi, Documentation";
 	$pageAuthor		= "Christopher Frost";
 		
-	$milestone = "2.1.0.x";
+	$milestone = "2.2.0.x";
 	$release = "2.1.0.RELEASE";
 	ob_start();
 ?>
