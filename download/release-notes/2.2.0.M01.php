@@ -31,13 +31,13 @@
 <h3>2.2.0.M01 - Release Notes</h3>
 <p>Bug list is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;classification=RT;product=Gemini.Web;target_milestone=2.2.0.M01" target="_self">here</a>.</p>
  
-<p>Notable improvements:</p>
+<h4>Notable improvements:</h4>
 
 <ul>
 	<li>Updated Apache Tomcat to version 7.0.29 with web sockets support.</li>
 </ul>
 
-<p>Migration from Gemini Web 2.1.0 to Gemini Web 2.2.0.M01</p>
+<h4>Migration from Gemini Web 2.1.0 to Gemini Web 2.2.0.M01</h4>
 
 <p>Removed Bundles</p>
 <ul>
