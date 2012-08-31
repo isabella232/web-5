@@ -37,6 +37,33 @@
 	<li>Updated Apache Tomcat to version 7.0.29 with web sockets support.</li>
 </ul>
 
+<p>Migration from Gemini Web 2.1.0 to Gemini Web 2.2.0.M01</p>
+
+<p>Removed Bundles</p>
+<ul>
+	<li>com.springsource.javax.xml.bind</li>
+	<li>com.springsource.javax.xml.stream</li>
+</ul>
+<p>
+<p>Bundles with changed symbolic names</p>
+<ul>
+	<li>com.springsource.org.apache.catalina -> org.apache.catalina</li>
+	<li>com.springsource.org.apache.catalina.ha -> org.apache.catalina.ha</li>
+	<li>com.springsource.org.apache.catalina.tribes -> org.apache.catalina.tribes</li>
+	<li>com.springsource.org.apache.coyote -> org.apache.coyote</li>
+	<li>com.springsource.org.apache.el -> org.apache.el</li>
+	<li>com.springsource.org.apache.jasper -> org.apache.jasper</li>
+	<li>com.springsource.org.apache.juli.extras -> org.apache.juli.extras</li>
+	<li>com.springsource.org.apache.tomcat.api -> org.apache.tomcat.api</li>
+	<li>com.springsource.org.apache.tomcat.util -> org.apache.tomcat.util</li>
+</ul>
+<p>
+<p>Bundles with changed version</p>
+<ul>
+	<li>All Apache Tomcat bundles 7.0.26 -> 7.0.29</li>
+	<li>org.eclipse.jdt.core.compiler.batch 3.7.0.M20120208-0800 -> 3.8.0.I20120518-2145</li>
+</ul>
+
 </div>
 
 <?
