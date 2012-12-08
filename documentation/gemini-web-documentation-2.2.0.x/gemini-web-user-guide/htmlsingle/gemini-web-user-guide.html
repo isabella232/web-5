@@ -8,14 +8,14 @@
 			pageTracker._setDomainName("none");
 			pageTracker._setAllowLinker(true);
 			pageTracker._trackPageview();
-		</script><!--End Google Analytics code--></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" lang="en"><div class="titlepage"><div><div><h1 class="title"><a name="d0e1"></a>Gemini Web User Guide</h1></div><div><span class="productname">Gemini Web Container<br></span></div><div><p class="releaseinfo">2.2.0.M02</p></div></div><div><div><div class="legalnotice"><a name="d0e11"></a><p>
+		</script><!--End Google Analytics code--></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" lang="en"><div class="titlepage"><div><div><h1 class="title"><a name="d0e1"></a>Gemini Web User Guide</h1></div><div><span class="productname">Gemini Web Container<br></span></div><div><p class="releaseinfo">2.2.0.M03</p></div></div><div><div><div class="legalnotice"><a name="d0e11"></a><p>
 				Copyright &copy; 2009, 2012 VMware Inc. and others
 			</p><p>
 				Contributors:
 				</p><div class="itemizedlist"><ul type="disc"><li><p>
 							VMware Inc. - initial contribution
 						</p></li><li><p>
-							Violeta Georgieva, SAP AG - Apache Tomcat context configuration
+							Violeta Georgieva, SAP AG
 						</p></li></ul></div><p>
 			</p></div></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="chapter"><a href="#introduction">1. Overview</a></span></dt><dd><dl><dt><span class="section"><a href="#intro">1.1. Introduction</a></span></dt><dt><span class="section"><a href="#about-this-guide">1.2. About This Guide</a></span></dt></dl></dd><dt><span class="chapter"><a href="#installation">2. Installing Gemini Web</a></span></dt><dd><dl><dt><span class="section"><a href="#installation-prereqs">2.1. Prerequisites</a></span></dt><dt><span class="section"><a href="#installation-zip">2.2. Installing from the ZIP Download</a></span></dt></dl></dd><dt><span class="chapter"><a href="#configuring">3. Configuration</a></span></dt><dd><dl><dt><span class="section"><a href="#configuring-tomcat">3.1. Configuring the Embedded Apache Tomcat Servlet Container</a></span></dt><dt><span class="section"><a href="#configuring-osgi-framework">3.2. Configuring the OSGi Framework</a></span></dt></dl></dd></dl></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="introduction"></a>1.&nbsp;Overview</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="intro"></a>1.1&nbsp;Introduction</h2></div></div></div><p>
 			Gemini Web Container implements the Web Container defined by the Web Applications Specification chapter of the OSGi Service Platform Release 4 Version 4.2 Enterprise Specification. 
@@ -247,7 +247,40 @@ osgi&gt; start 40</pre></li><li><p>
 						<div class="itemizedlist"><ul type="circle"><li><code class="literal">name</code> - The name of the resource that will be created. The name should be relative to the java:comp/env context.</li><li><code class="literal">type</code> - The fully qualified Java class name of the resource (OSGi service) that web application will expect when it performs a lookup or when it uses @Resource annotation.</li><li><code class="literal">mappedName</code> - the service/s that should be looked up and the filter details if any. 
 								The syntax can be seen in <a class="ulink" href="http://www.osgi.org/download/r4v42/r4.enterprise.pdf" target="_top">OSGi JNDI Services Specification: 126.6 OSGi URL Scheme</a>.
 							</li><li><code class="literal">factory</code> - The class name for the JNDI object factory. Gemini Web Container provides a special JNDI object factory in order to be able to obtain an OSGi service.</li></ul></div></li></ul></div><p>
-			</p></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="configuring-osgi-framework"></a>3.2&nbsp;Configuring the OSGi Framework</h2></div></div></div><p>
+			</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="configuring-jsp-compilation"></a>JSP Compilation</h3></div></div></div><p>
+				By default Apache Tomcat compiles JSP files in web applications agains Java 1.6.
+				In order to enable JSP compilation against Java 1.7 for your web application,
+				additional init parameters (<code class="literal">compilerSourceVM</code> and <code class="literal">compilerTargetVM</code>) should be added for the <code class="literal">org.apache.jasper.servlet.JspServlet</code> configuration.
+				For details about <code class="literal">org.apache.jasper.servlet.JspServlet</code> configuration, see the <a class="ulink" href="http://tomcat.apache.org/tomcat-7.0-doc/jasper-howto.html" target="_top">Apache Tomcat Jasper 2 JSP Engine</a>.
+				<code class="literal">org.apache.jasper.servlet.JspServlet</code> configuration can be provided with the web application's web.xml.
+			</p><pre class="programlisting">&lt;<span class="hl-tag">?xml version="1.0" encoding="ISO-8859-1"?</span>&gt;
+&lt;<span class="hl-tag">servlet</span>&gt;
+    &lt;<span class="hl-tag">servlet-name</span>&gt;jsp&lt;<span class="hl-tag">/servlet-name</span>&gt;
+    &lt;<span class="hl-tag">servlet-class</span>&gt;org.apache.jasper.servlet.JspServlet&lt;<span class="hl-tag">/servlet-class</span>&gt;
+    &lt;<span class="hl-tag">init-param</span>&gt;
+        &lt;<span class="hl-tag">param-name</span>&gt;compilerSourceVM&lt;<span class="hl-tag">/param-name</span>&gt;
+        &lt;<span class="hl-tag">param-value</span>&gt;1.7&lt;<span class="hl-tag">/param-value</span>&gt;
+    &lt;<span class="hl-tag">/init-param</span>&gt;
+    &lt;<span class="hl-tag">init-param</span>&gt;
+        &lt;<span class="hl-tag">param-name</span>&gt;compilerTargetVM&lt;<span class="hl-tag">/param-name</span>&gt;
+        &lt;<span class="hl-tag">param-value</span>&gt;1.7&lt;<span class="hl-tag">/param-value</span>&gt;
+    &lt;<span class="hl-tag">/init-param</span>&gt;
+    &lt;<span class="hl-tag">init-param</span>&gt;
+        &lt;<span class="hl-tag">param-name</span>&gt;fork&lt;<span class="hl-tag">/param-name</span>&gt;
+        &lt;<span class="hl-tag">param-value</span>&gt;false&lt;<span class="hl-tag">/param-value</span>&gt;
+    &lt;<span class="hl-tag">/init-param</span>&gt;
+    &lt;<span class="hl-tag">init-param</span>&gt;
+        &lt;<span class="hl-tag">param-name</span>&gt;xpoweredBy&lt;<span class="hl-tag">/param-name</span>&gt;
+        &lt;<span class="hl-tag">param-value</span>&gt;false&lt;<span class="hl-tag">/param-value</span>&gt;
+    &lt;<span class="hl-tag">/init-param</span>&gt;
+    &lt;<span class="hl-tag">load-on-startup</span>&gt;3&lt;<span class="hl-tag">/load-on-startup</span>&gt;
+&lt;<span class="hl-tag">/servlet</span>&gt;
+&lt;<span class="hl-tag">servlet-mapping</span>&gt;
+    &lt;<span class="hl-tag">servlet-name</span>&gt;jsp&lt;<span class="hl-tag">/servlet-name</span>&gt;
+    &lt;<span class="hl-tag">url-pattern</span>&gt;*.jsp&lt;<span class="hl-tag">/url-pattern</span>&gt;
+    &lt;<span class="hl-tag">url-pattern</span>&gt;*.jspx&lt;<span class="hl-tag">/url-pattern</span>&gt;
+&lt;<span class="hl-tag">/servlet-mapping</span>&gt;
+</pre></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="configuring-osgi-framework"></a>3.2&nbsp;Configuring the OSGi Framework</h2></div></div></div><p>
 			This section provides information about configuring the OSGi framework by updating the following files in the
 			<code class="literal">$GW_HOME/configuration</code> directory:
 		</p><div class="table"><a name="configuring-osgi-framework-table"></a><p class="title"><b>Table&nbsp;3.1.&nbsp;OSGi Framework Configuration Files </b></p><div class="table-contents"><table summary="OSGi Framework Configuration Files " style="border-collapse: collapse;border-top: 1.0pt solid ; border-bottom: 1.0pt solid ; border-left: 1.0pt solid ; border-right: 1.0pt solid ; "><colgroup><col><col></colgroup><thead><tr><th style="border-right: 1.0pt solid ; border-bottom: 1.0pt solid ; ">Property File</th><th style="border-bottom: 1.0pt solid ; ">Description</th></tr></thead><tbody><tr><td style="border-right: 1.0pt solid ; border-bottom: 1.0pt solid ; ">
@@ -261,11 +294,18 @@ osgi&gt; start 40</pre></li><li><p>
 								<code class="literal">osgi.bundles</code>
 							</td><td style="border-bottom: 1.0pt solid ; ">
 								The comma-separated list of bundles which are automatically installed and optionally started once the system is up and running.
-							</td></tr><tr><td style="border-right: 1.0pt solid ; ">
+							</td></tr><tr><td style="border-right: 1.0pt solid ; border-bottom: 1.0pt solid ; ">
 								<code class="literal">osgi.java.profile</code>
-							</td><td style="">
+							</td><td style="border-bottom: 1.0pt solid ; ">
 								Specifies the profile to use using a <code class="literal">file:</code> URI with default value
 								<code class="literal">file:configuration/java6-server.profile</code>.
+							</td></tr><tr><td style="border-right: 1.0pt solid ; ">
+								<code class="literal">osgi.bundlefile.limit</code>
+							</td><td style="">
+								Specifies a limit on the number of jar files the framework will keep open.
+								The minimum value allowed is 10. Any value less than 10 will disable the bundle file limit, making the the number of jar files the framework keeps open unlimited.
+								By default the value is 100.
+								Increase the default value if you have many jar files in the bundle class path, expect a lot of file system operations etc.
 							</td></tr></tbody></table></div></div><br class="table-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="configuring-framework-profile"></a>Configuring OSGi Framework Profile</h3></div></div></div><p>
 				You specify the framework profile in the <code class="literal">$GW_HOME/configuration/java6-server.profile</code> file. 
 				The properties relevant to users are described in the following table.
