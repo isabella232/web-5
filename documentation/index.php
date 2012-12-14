@@ -33,7 +33,7 @@
 		<h2>Gemini Web Documentation</h2>
 		<p>
 			Gemini Web implements the Web Container defined by the Web Applications Specification chapter of the OSGi Service Platform Release 4 Version 4.2
-			Enterprise Specification. This specification may be downloaded <a href="http://www.osgi.org/Download/Release4V42">here</a>.
+			Enterprise Specification and later versions of the specification. This specification may be downloaded <a href="http://www.osgi.org/Download/">here</a>.
 		</p>
 		
 		<h2>Release Documentation</h2>
