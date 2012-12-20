@@ -22,11 +22,18 @@
 								<code class="literal">osgi.bundles</code>
 							</td><td style="border-bottom: 1.0pt solid ; ">
 								The comma-separated list of bundles which are automatically installed and optionally started once the system is up and running.
-							</td></tr><tr><td style="border-right: 1.0pt solid ; ">
+							</td></tr><tr><td style="border-right: 1.0pt solid ; border-bottom: 1.0pt solid ; ">
 								<code class="literal">osgi.java.profile</code>
-							</td><td style="">
+							</td><td style="border-bottom: 1.0pt solid ; ">
 								Specifies the profile to use using a <code class="literal">file:</code> URI with default value
 								<code class="literal">file:configuration/java6-server.profile</code>.
+							</td></tr><tr><td style="border-right: 1.0pt solid ; ">
+								<code class="literal">osgi.bundlefile.limit</code>
+							</td><td style="">
+								Specifies a limit on the number of jar files the framework will keep open.
+								The minimum value allowed is 10. Any value less than 10 will disable the bundle file limit, making the the number of jar files the framework keeps open unlimited.
+								By default the value is 100.
+								Increase the default value if you have many jar files in the bundle class path, expect a lot of file system operations etc.
 							</td></tr></tbody></table></div></div><br class="table-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="configuring-framework-profile"></a>Configuring OSGi Framework Profile</h3></div></div></div><p>
 				You specify the framework profile in the <code class="literal">$GW_HOME/configuration/java6-server.profile</code> file. 
 				The properties relevant to users are described in the following table.
