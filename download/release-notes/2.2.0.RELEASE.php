@@ -31,7 +31,7 @@
 <h3>2.2.0.RELEASE - Release Notes</h3>
 
 <p>The <a href="http://wiki.eclipse.org/Virgo/Future#Release_Branding">Sky</a> (2.2.0) release of Gemini Web
-provides newer Apache Tomcat version with web sockets support and upgrades all dependencies to newer versions.
+provides a newer Apache Tomcat version with web sockets support and upgrades all dependencies to newer versions.
 Also it delivers several smaller enhancements and bug fixes.</p>
 <p>
 <h4>Notable Improvements</h4>
