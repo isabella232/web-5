@@ -48,6 +48,8 @@
 				<li><a href="https://dev.eclipse.org/mailman/listinfo/gemini-dev">Developer Mailing List</a></li>
 				<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini.web">Subproject Summary</a></li>
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Gemini.Web">Gemini Web Bugzilla</a></li>
+				<li><a href="https://hudson.eclipse.org/hudson/view/Virgo/job/virgo.gemini-web-container.snapshot/">Hudson CI</a></li>
+				<li><a href="https://www.ohloh.net/p/eclipse_gemini_web">Ohloh</a></li>
 			</ul>
 			</div>
 			<h6>New and Noteworthy</h6>
