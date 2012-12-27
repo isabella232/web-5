@@ -44,6 +44,7 @@ which is the Reference Implementation of the OSGi Web Applications specification
 
 <p>A full list of bugs included in this release is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?classification=RT&product=Gemini.Web&query_format=advanced&target_milestone=1.1.1.RELEASE&order=bug_severity,assigned_to%20DESC,changeddate,bug_status,bug_id&query_based_on=" target="_self">here</a>.</p>
 
+<p><a href="1.1.0.RELEASE.php" target="_self">1.1.0.RELEASE - Release Notes</a></p>
 </div>
 
 <?

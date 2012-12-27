@@ -35,6 +35,8 @@ upgrades Gemini Web to pick up Apache Tomcat 7.0.26 which includes a fix for a s
 more about it <a href="http://tomcat.apache.org/tomcat-7.0-doc/changelog.html">here</a>.</p>
 <p>
 <p>A full list of bugs included in this release is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?classification=RT&product=Gemini.Web&query_format=advanced&target_milestone=2.0.2.RELEASE&order=bug_severity,assigned_to%20DESC,changeddate,bug_status,bug_id&query_based_on=" target="_self">here</a>.</p>
+<p><a href="2.0.0.RELEASE.php" target="_self">2.0.0.RELEASE - Release Notes</a></p>
+<p><a href="2.0.1.RELEASE.php" target="_self">2.0.1.RELEASE - Release Notes</a></p>
 
 </div>
 
