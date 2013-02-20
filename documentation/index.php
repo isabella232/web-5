@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009, 2012 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2013 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -25,7 +25,7 @@
 	$pageAuthor		= "Christopher Frost";
 		
 	$milestone = "2.2.0.x";
-	$release = "2.2.0.RELEASE";
+	$release = "2.2.1.RELEASE";
 	ob_start();
 ?>
 	
