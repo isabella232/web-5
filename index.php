@@ -54,7 +54,7 @@
 			</div>
 			<h6>New and Noteworthy</h6>
             <div class="modal">
-            <p>Gemini Web 2.2.1 RELEASE is available!</p>
+            <p>Gemini Web 2.2.2 RELEASE is available!</p>
             </div>
 		</div>
 		<!-- div class="sideitem">
