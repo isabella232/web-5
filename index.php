@@ -41,7 +41,6 @@
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Quick Links</h6>
-			<div class="modal">
 			<ul>
 				<li><a href="http://wiki.eclipse.org/Gemini/Web">Gemini Web Wiki</a></li>
 				<li><a href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=153&">Gemini Forum</a></li>  
@@ -51,11 +50,10 @@
 				<li><a href="https://hudson.eclipse.org/hudson/view/Virgo/job/virgo.gemini-web-container.snapshot/">Hudson CI</a></li>
 				<li><a href="https://www.ohloh.net/p/eclipse_gemini_web">Ohloh</a></li>
 			</ul>
-			</div>
+		</div>
+		<div class="sideitem">
 			<h6>New and Noteworthy</h6>
-            <div class="modal">
             <p>Gemini Web 2.2.2 RELEASE is available!</p>
-            </div>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
