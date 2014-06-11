@@ -51,10 +51,6 @@ a:hover {
 	width:220px;
 }
 
-#novaContent li {
-	list-style-image: url("/gemini/web/images/bullet.png");
-}
-
 .toggle {
 	cursor: pointer;
 	color: #002E62;
