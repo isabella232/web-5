@@ -53,7 +53,7 @@
 		</div>
 		<div class="sideitem">
 			<h6>New and Noteworthy</h6>
-            <p>Gemini Web 2.2.3 RELEASE is available!</p>
+            <p>Gemini Web 2.2.4 RELEASE is available!</p>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
