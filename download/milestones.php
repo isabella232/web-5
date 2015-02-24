@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009, 2012 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2015 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -23,7 +23,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Glyn Normington";
 	
-	$geminiWebVersions = array("2.2.0.RC1", "2.2.0.M03", "2.2.0.M02", "2.2.0.M01");
+	$geminiWebVersions = array("3.0.0.M01");
 	
 	ob_start();
 ?>
@@ -57,7 +57,8 @@
 		echo "<div class='accordion'>";
 		echo "	<ul>";
 		echo "		<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/$version.php' target='_self'>View Release Notes</a></li>";
-		echo "		<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
+		echo "		<li><strong>Gemini Web</strong> - <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
+		echo "      <li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/web/updates/$version/' target='_self'>http://download.eclipse.org/gemini/web/updates/$version/</a></li>";
 		echo "	</ul>";
 		echo "</div>";
 		$first = false;

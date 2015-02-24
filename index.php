@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009, 2014 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2015 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -47,13 +47,14 @@
 				<li><a href="https://dev.eclipse.org/mailman/listinfo/gemini-dev">Developer Mailing List</a></li>
 				<li><a href="http://www.eclipse.org/projects/project_summary.php?projectid=rt.gemini.web">Subproject Summary</a></li>
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Gemini.Web">Gemini Web Bugzilla</a></li>
-				<li><a href="https://hudson.eclipse.org/hudson/view/Virgo/job/virgo.gemini-web-container.snapshot/">Hudson CI</a></li>
-				<li><a href="https://www.ohloh.net/p/eclipse_gemini_web">Ohloh</a></li>
+				<li><a href="https://hudson.eclipse.org/gemini/">Hudson CI</a></li>
+				<li><a href="https://www.openhub.net/p/eclipse_gemini_web">Open HUB</a></li>
+				<li><a href="https://scan.coverity.com/projects/2204?tab=overview">Coverity</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
 			<h6>New and Noteworthy</h6>
-            <p>Gemini Web 2.2.5 RELEASE is available!</p>
+            <p>Gemini Web 3.0.0 M01 is available!</p>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
