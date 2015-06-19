@@ -25,7 +25,7 @@
 	$pageAuthor		= "Christopher Frost";
 		
 	$milestone = "3.0.0.x";
-	$release = "2.2.6.RELEASE";
+	$release = "2.2.7.RELEASE";
 	ob_start();
 ?>
 	
