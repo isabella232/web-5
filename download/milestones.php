@@ -23,7 +23,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Glyn Normington";
 	
-	$geminiWebVersions = array("3.0.0.M01");
+	$geminiWebVersions = array("3.0.0.M01", "3.0.0.RC1");
 	
 	ob_start();
 ?>
@@ -58,7 +58,7 @@
 		echo "	<ul>";
 		echo "		<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/$version.php' target='_self'>View Release Notes</a></li>";
 		echo "		<li><strong>Gemini Web</strong> - <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/milestone/GW/$version/gemini-web-$version.zip' target='_self'>Download</a></li>";
-		echo "      <li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/web/updates/$version/' target='_self'>http://download.eclipse.org/gemini/web/updates/$version/</a></li>";
+		echo "		<li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/web/updates/$version/' target='_self'>http://download.eclipse.org/gemini/web/updates/$version/</a></li>";
 		echo "	</ul>";
 		echo "</div>";
 		$first = false;
