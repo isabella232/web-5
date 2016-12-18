@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
 <ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
 
-	<info organisation="org.eclipse.gemini" module="gemini-web-user-guide" revision="3.0.0.RC2" status="milestone" publication="20161008180323"/>
+	<info organisation="org.eclipse.gemini" module="gemini-web-user-guide" revision="3.0.0.RC3" status="milestone" publication="20161218161710"/>
 
 	<configurations>
 		<conf name="compile" visibility="public" extends="aspects" description="Maven compile dependencies"/>
