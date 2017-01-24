@@ -54,7 +54,7 @@
 		</div>
 		<div class="sideitem">
 			<h6>New and Noteworthy</h6>
-            <p>Gemini Web 3.0.0.RC4 is available!</p>
+            <p>Gemini Web 3.0.0.RC5 is available!</p>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>

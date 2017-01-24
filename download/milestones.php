@@ -23,7 +23,7 @@
 	$pageKeywords	= "Eclipse, EclipseRT, Virgo, OSGi, Downloads";
 	$pageAuthor		= "Glyn Normington";
 	
-	$geminiWebVersions = array("3.0.0.RC4", "3.0.0.RC3", "3.0.0.RC2", "3.0.0.RC1", "3.0.0.M01");
+	$geminiWebVersions = array("3.0.0.RC5", "3.0.0.RC4", "3.0.0.RC3", "3.0.0.RC2", "3.0.0.RC1", "3.0.0.M01");
 	
 	ob_start();
 ?>
