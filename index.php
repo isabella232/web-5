@@ -49,7 +49,7 @@
 				<li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;product=Gemini.Web">Gemini Web Bugzilla</a></li>
 				<li><a href="https://hudson.eclipse.org/gemini/">Hudson CI</a></li>
 				<li><a href="https://www.openhub.net/p/eclipse_gemini_web">Open HUB</a></li>
-				<li><a href="https://scan.coverity.com/projects/2204?tab=overview">Coverity</a></li>
+				<li><a href="https://scan.coverity.com/projects/eclipse-gemini-web">Coverity</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
