@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 
 /*******************************************************************************
- * Copyright (c) 2015, 2017 Eclipse Foundation and others.
+ * Copyright (c) 2017 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -28,24 +28,9 @@
 
 <div id="midcolumn">
 
-<h3>3.0.0.RC1 - Release Notes</h3>
+<h3>3.0.0.RC4 - Release Notes</h3>
 
-<h4>Notable improvements:</h4>
-
-<ul>
-	<li>Embedded Apache Tomcat version 8.0.21.</li>
-	<li>Compatible with Equinox version Mars.</li>
-</ul>
-<p><p>
-<h4>Migration from Gemini Web 3.0.0.M01 to Gemini Web 3.0.0.RC1</h4>
-<p>
-<p>Bundles with changed version</p>
-<ul>
-	<li>All Apache Tomcat bundles 8.0.18 -> 8.0.21</li>
-	<li>org.eclipse.jdt.core.compiler.batch 3.10.0.v20140902-0626 -> 3.11.0.v20150602-1242</li>
-</ul>
-
-<p>A full list of bugs included in this milestone is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?list_id=2407161;classification=RT;query_format=advanced;component=unknown;target_milestone=3.0.0.RC1;product=Gemini.Web" target="_self">here</a>.</p>
+<p>A full list of bugs included in this milestone is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?list_id=2407161;classification=RT;query_format=advanced;component=unknown;target_milestone=3.0.0.RC4;product=Gemini.Web" target="_self">here</a>.</p>
 
 </div>
 

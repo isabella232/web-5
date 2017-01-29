@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2015 Eclipse Foundation and others.
+ * Copyright (c) 2015, 2017 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -51,6 +51,8 @@
 	<li>javax.servlet 3.0.0.v201103241009 -> 3.1.0</li>
 	<li>javax.servlet.jsp 2.2.0.v201112011158 -> 2.3.0</li>
 </ul>
+
+<p>A full list of bugs included in this milestone is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?list_id=2407161;classification=RT;query_format=advanced;component=unknown;target_milestone=3.0.0.M01;product=Gemini.Web" target="_self">here</a>.</p>
 
 </div>
 

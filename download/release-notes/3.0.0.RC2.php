@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 
 /*******************************************************************************
- * Copyright (c) 2016 Eclipse Foundation and others.
+ * Copyright (c) 2016, 2017 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -42,6 +42,8 @@
 <ul>
 	<li>All Apache Tomcat bundles 8.0.21 -> 8.5.5</li>
 </ul>
+
+<p>A full list of bugs included in this milestone is available <a href="https://bugs.eclipse.org/bugs/buglist.cgi?list_id=2407161;classification=RT;query_format=advanced;component=unknown;target_milestone=3.0.0.RC2;product=Gemini.Web" target="_self">here</a>.</p>
 
 </div>
 
