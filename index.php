@@ -8,7 +8,7 @@
 	include($App->getProjectCommon());
 	
 /*******************************************************************************
- * Copyright (c) 2009, 2015 Eclipse Foundation and others.
+ * Copyright (c) 2009, 2017 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -54,7 +54,7 @@
 		</div>
 		<div class="sideitem">
 			<h6>New and Noteworthy</h6>
-            <p>Gemini Web 3.0.1.RELEASE is available!</p>
+            <p>Gemini Web 3.0.2.RELEASE is available!</p>
 		</div>
 		<!-- div class="sideitem">
 			<h6>&lt;h6&gt; tag</h6>
