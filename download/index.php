@@ -41,19 +41,19 @@
 		</p>
 		
 		
-		<h4 class='toggle'>3.0.2.RELEASE</h4>
+		<h4 class='toggle'>3.0.3.RELEASE</h4>
 		<div class='accordion'>
 			<ul>
-				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/3.0.2.RELEASE.php' target='_self'>View Release Notes</a></li>
-				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/release/GW/3.0.2.RELEASE/gemini-web-3.0.2.RELEASE.zip' target='_self'>Download</a></li>
-				<li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/updates/web/3.0.2/' target='_self'>http://download.eclipse.org/gemini/updates/web/3.0.2/</a></li>
+				<li><a href='http://www.eclipse.org/gemini/web/download/release-notes/3.0.3.RELEASE.php' target='_self'>View Release Notes</a></li>
+				<li><strong>Gemini Web</strong> -  <a href='http://www.eclipse.org/downloads/download.php?file=/gemini/web/release/GW/3.0.3.RELEASE/gemini-web-3.0.3.RELEASE.zip' target='_self'>Download</a></li>
+				<li><strong>Gemini Web p2 repository</strong> - <a href='http://download.eclipse.org/gemini/updates/web/3.0.3/' target='_self'>http://download.eclipse.org/gemini/updates/web/3.0.3/</a></li>
 				<li><strong>Gemini Web maven repository</strong> - <a href='http://download.eclipse.org/gemini/mvn/' target='_self'>http://download.eclipse.org/gemini/mvn/</a></li>
                     <table id="packaging">
                     <tr><th class="packaging-content">groupId</th><th class="packaging-content">artifactId</th><th class="packaging-content">version</th></tr>
-                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.core</td><td class="packaging-content">3.0.2.RELEASE</td></tr>
-                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.extender</td><td class="packaging-content">3.0.2.RELEASE</td></tr>
-                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.tomcat</td><td class="packaging-content">3.0.2.RELEASE</td></tr>
-                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.jaspic.fragment</td><td class="packaging-content">3.0.2.RELEASE</td></tr>
+                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.core</td><td class="packaging-content">3.0.3.RELEASE</td></tr>
+                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.extender</td><td class="packaging-content">3.0.3.RELEASE</td></tr>
+                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.tomcat</td><td class="packaging-content">3.0.3.RELEASE</td></tr>
+                    <tr><td class="packaging-content">org.eclipse.gemini</td><td class="packaging-content">org.eclipse.gemini.web.jaspic.fragment</td><td class="packaging-content">3.0.3.RELEASE</td></tr>
                     </table>
 				<li>Documentation is included with the download and can be viewed on line <a href="http://www.eclipse.org/gemini/web/documentation/">here</a>.
 			</ul>
